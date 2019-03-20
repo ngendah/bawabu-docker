@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ngendah/kannel-docker.svg?branch=master)](https://travis-ci.org/ngendah/kannel-docker)
+
 # bawabu-docker
 ==================
 
