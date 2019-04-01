@@ -1,12 +1,12 @@
 version: "3"
 services:
   api.o2:
+    image: bawabu:latest-alpine
     build:
-      context: ../../../../.rvm/gems/ruby-2.5.3@rails5/gems/activestorage-5.2.2.1/app/assets
+      context: bawabu
       args:
         RAILS_ENV: production
     environment:
-      - RAILS_ENV='production'
       - POSTGRES_DATABASE_URI=db.prod.o2api
       - POSTGRES_USERNAME=prod-o2api
       - POSTGRES_PASSWORD="${POSTGRES_PASSWORD}"
